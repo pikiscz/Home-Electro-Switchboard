@@ -1096,10 +1096,393 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Relay:FINDER-34.51"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FINDER-34.51"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Finder_34.51_Vertical"
+				(at 28.956 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-slim 1 Pole - 6A SPDT relay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Pole Relay SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPDT*Finder*34.51*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FINDER-34.51_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FINDER-34.51_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FINDER-34.51_1_1"
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 99.06 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "223571f1-3375-4750-8856-d15a6dfd17a4")
+	)
+	(junction
+		(at 101.6 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f49549-9c4f-435b-bfa2-f45213a4d5df")
 	)
 	(wire
 		(pts
-			(xy 99.06 91.44) (xy 118.11 91.44)
+			(xy 127 109.22) (xy 133.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7d7fce-d8a7-4eee-98e4-bba7a27d2e4f")
+	)
+	(wire
+		(pts
+			(xy 177.8 39.37) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174018b6-2c7c-47a4-ba5b-fe15bdadca7f")
+	)
+	(wire
+		(pts
+			(xy 99.06 135.89) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1953553f-a988-4df0-a12f-2cc8bc18a15f")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 148.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fad5bf6-f92f-4b5c-85ea-4f97a6485dcd")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1492,47 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 58.42) (xy 101.6 58.42)
+			(xy 177.8 133.35) (xy 190.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379283d4-afb0-41b4-8240-9d13e52bcbf9")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ea8ee0-a52f-4c9b-bda8-1371b796ce42")
+	)
+	(wire
+		(pts
+			(xy 101.6 121.92) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa74cbd-d773-46c9-9374-27be75bae23e")
+	)
+	(wire
+		(pts
+			(xy 99.06 135.89) (xy 190.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f3aa7a-cd31-477f-8544-1ab21291dba1")
+	)
+	(wire
+		(pts
+			(xy 90.17 39.37) (xy 101.6 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1119,7 +1542,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 104.14) (xy 118.11 104.14)
+			(xy 177.8 133.35) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7e7e39-3ef0-4d84-9191-0d0c3f3f8395")
+	)
+	(wire
+		(pts
+			(xy 101.6 85.09) (xy 118.11 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1129,7 +1562,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 58.42) (xy 64.77 58.42)
+			(xy 133.35 121.92) (xy 101.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8e6729-0051-4edd-bc1f-04a0e5937135")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 64.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1139,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 99.06 62.23)
+			(xy 90.17 43.18) (xy 99.06 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 62.23) (xy 64.77 62.23)
+			(xy 62.23 43.18) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1159,27 +1602,37 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 83.82) (xy 177.8 60.96)
+			(xy 171.45 77.47) (xy 171.45 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa61a74a-6f60-4005-b23c-cdb33faa1162")
+		(uuid "97b59f76-5496-4169-a42d-99570e34d644")
 	)
 	(wire
 		(pts
-			(xy 161.29 58.42) (xy 186.69 58.42)
+			(xy 177.8 111.76) (xy 177.8 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8680d84-f5f2-44b0-b825-99dc9b3ccaa2")
+		(uuid "ba63b70f-f5c4-4933-ad49-770b608d71e6")
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 62.23 60.96)
+			(xy 161.29 77.47) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4f6dd6-02df-410f-b3b8-78852bc431b1")
+	)
+	(wire
+		(pts
+			(xy 57.15 41.91) (xy 62.23 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 62.23) (xy 99.06 91.44)
+			(xy 99.06 43.18) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 58.42) (xy 101.6 104.14)
+			(xy 101.6 39.37) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1209,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 62.23 62.23)
+			(xy 62.23 41.91) (xy 62.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1219,27 +1672,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 83.82) (xy 177.8 83.82)
+			(xy 148.59 111.76) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3a19d34-eb8c-4d52-aba5-3a9f83d303fb")
+		(uuid "e944e608-3871-4b91-9005-5d5f7946ed6e")
 	)
 	(wire
 		(pts
-			(xy 177.8 60.96) (xy 186.69 60.96)
+			(xy 171.45 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd8aafb9-ca75-44ef-be76-23be01b7d800")
+		(uuid "ee5a1f06-132d-4ee7-8463-58941462b5ab")
 	)
 	(symbol
 		(lib_id "ESP32Library:ESP-WROOM-32")
-		(at 139.7 53.34 0)
+		(at 139.7 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1247,7 +1700,7 @@
 		(dnp no)
 		(uuid "193bb9f9-9d5b-4082-b4c3-95501b4ae349")
 		(property "Reference" "U1"
-			(at 139.7 54.102 0)
+			(at 139.7 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1708,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 139.7 53.34 0)
+			(at 139.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 53.34 0)
+			(at 139.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 53.34 0)
+			(at 139.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 53.34 0)
+			(at 139.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1868,7 @@
 	)
 	(symbol
 		(lib_id "PowerSupplyLibrary:HLK-PM01")
-		(at 77.47 54.61 0)
+		(at 77.47 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1423,7 +1876,7 @@
 		(dnp no)
 		(uuid "bb5fee4f-6f38-4594-be7f-0e59092803dd")
 		(property "Reference" "T1"
-			(at 77.47 54.61 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1884,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 77.47 53.34 0)
+			(at 77.47 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 54.61 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 54.61 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 54.61 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1942,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 191.77 58.42 0)
+		(at 195.58 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1497,7 +1950,7 @@
 		(dnp no)
 		(uuid "c14aba64-32c4-4b01-9e92-5675d38a6052")
 		(property "Reference" "J_RCsignal"
-			(at 194.31 58.4199 0)
+			(at 198.12 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1959,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 194.31 60.9599 0)
+			(at 198.12 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 58.42 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 58.42 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1986,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 58.42 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,8 +2010,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:FINDER-34.51")
+		(at 140.97 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c388f6d9-4595-4333-8c0a-f9ae1012f4e3")
+		(property "Reference" "K1"
+			(at 140.97 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FINDER-34.51"
+			(at 140.97 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Finder_34.51_Vertical"
+			(at 141.986 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-slim 1 Pole - 6A SPDT relay"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "628223af-1026-41f8-bd7e-b2d4d6c91eb5")
+		)
+		(pin "11"
+			(uuid "827659de-3115-436a-9f04-a0e913033519")
+		)
+		(pin "14"
+			(uuid "6db82bd9-ec1f-4af8-a519-ce447ea28a7e")
+		)
+		(pin "A1"
+			(uuid "6b39eaf5-6358-4318-8e21-24f3bab06b52")
+		)
+		(pin "A2"
+			(uuid "91a193cc-e719-4a8e-8725-97b625e1ab93")
+		)
+		(instances
+			(project ""
+				(path "/4cecad48-85c2-49e1-ac0c-794f9a5411a5"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 52.07 58.42 0)
+		(at 52.07 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1567,7 +2096,7 @@
 		(dnp no)
 		(uuid "d83dc9c9-794c-459a-8d4b-08610bfe68f7")
 		(property "Reference" "J_230V"
-			(at 49.53 58.4199 0)
+			(at 49.53 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +2105,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 49.53 60.9599 0)
+			(at 49.53 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +2114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 58.42 0)
+			(at 52.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +2123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 58.42 0)
+			(at 52.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +2132,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 58.42 0)
+			(at 52.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
