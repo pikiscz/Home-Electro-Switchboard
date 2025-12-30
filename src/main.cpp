@@ -17,7 +17,7 @@ Load WiFi SSID & Pass and MQTT IP Address:
 
 #define BAUDRATE 115200
 
-#define RC_PIN 17
+#define RC_PIN 15
 
 unsigned long mqttLastEvent;
 unsigned long mqttInterval = 60000; //ms
